@@ -32,3 +32,8 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.formatoptions:remove({ "o" })
   end,
 })
+
+vim.api.nvim_create_autocmd("BufEnter", {
+  pattern = "*.slint",
+  command = "setlocal filetype=slint",
+})

@@ -4,4 +4,3 @@ require("config.lazy")
 require("fany.fanykeymaps")
 require("fany.fanytelescope")
 require("fany.fanyconfig")
-

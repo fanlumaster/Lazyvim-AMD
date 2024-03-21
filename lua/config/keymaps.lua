@@ -80,6 +80,8 @@ map("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<cr>", { desc 
 map("n", "<leader>py", '<cmd>TermExec cmd="python %"<cr>', { desc = "Run python codes" })
 -- run rust binary project
 map("n", "<leader>ru", '<cmd>TermExec cmd="cargo run"<cr>', { desc = "Run rust project" })
+-- run lua scripts
+map("n", "<leader>rlu", '<cmd>TermExec cmd="lua %"<cr>', { desc = "Run lua scripts" })
 
 -- 移动 buffer
 local moveBy = function(dir)
